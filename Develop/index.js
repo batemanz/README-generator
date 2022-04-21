@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
-// TODO: Create an array of questions for user input
-// const questions = [];
+
 const questions = [
   {
     type: "input",
@@ -14,22 +12,6 @@ const questions = [
     type: "input",
     name: "description",
     message: "description of your project?",
-  },
-  {
-    type: "list",
-    message: "table of contents?",
-    name: "table",
-    choices: [
-      "title",
-      "description",
-      "table of contents",
-      "installation",
-      "usage",
-      "license",
-      "contributing",
-      "test",
-      "questions",
-    ],
   },
   {
     type: "input",
@@ -45,17 +27,7 @@ const questions = [
     type: "list",
     message: "License?",
     name: "license",
-    choices: [
-      "MIT",
-      "description",
-      "table of contents",
-      "installation",
-      "usage",
-      "license",
-      "contributing",
-      "test",
-      "questions",
-    ],
+    choices: ["MIT", "Mozilla", "IBM", "Apache", "ISC"],
   },
   {
     type: "input",
@@ -90,15 +62,10 @@ function init() {
   inquirer.prompt(questions).then((data) => {
     console.log(data);
 
-    //const filename = `${data.Title.toLowerCase().split(' ').join('')}.md`;
-
-    //format the dat in readme friendly way
+    // format the dat in readme friendly way
     const context = generateMarkdown(data);
     console.log(context);
-
     writeToFile("Readme.md", context);
-
-    // JSON.stringify(data, null, '\t')
   });
 }
 
