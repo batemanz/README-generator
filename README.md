@@ -32,7 +32,7 @@
 
   ## Questions
   natekilcrease@gmail.com
-  
+
   ## video
   [Link to video](https://youtu.be/NNYcF7dF1zM)
 
