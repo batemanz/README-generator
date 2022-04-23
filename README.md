@@ -40,9 +40,9 @@
   [Git hub repository](https://github.com/batemanz/README-generator.git)  
 
   ## screenshots
-  ![screen1](./images/screen1.png)
+  ![screen1](./Develop/images/screen1.png)
 
-  ![screen2](./images/screen2.png)
+  ![screen2](./Develop/images/screen2.png)
 
 
 
