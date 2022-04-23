@@ -32,15 +32,17 @@
 
   ## Questions
   natekilcrease@gmail.com
-
-  ## screenshots
-  ![screen1](./images/screen1.png)
   
-  ![screen2](./images/screen2.png)
-
   ## video
   [Link to video](https://youtu.be/NNYcF7dF1zM)
 
   ## links
   [Git hub repository](https://github.com/batemanz/README-generator.git)  
+
+  ## screenshots
+  ![screen1](./images/screen1.png)
+
+  ![screen2](./images/screen2.png)
+
+
 
