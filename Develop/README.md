@@ -1,4 +1,6 @@
-# this title
+# README generator
+
+  ![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg) https://opensource.org/licenses/MPL-2.0
 
   ### Table of contents
   * [Description](#description)
@@ -10,24 +12,35 @@
   * [Questions](#questions)
   
   ## Description 
-  not today pkaya
+  using node.js to create a readme.md file 
 
   ## Installation
   to install please run this command
-  nope
+  node index.js
 
   ## Usage
-  this 
+  for creating a readme file
 
   ## License
-  ![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)
-  https://opensource.org/licenses/ISC
+     project is using Mozilla
 
   ## Contributing
-  ok now
+  none
 
   ## Tests
-  well ill be dipped
+  none right now
 
   ## Questions
-  gmial
+  natekilcrease@gmail.com
+
+  ## screenshots
+  ![screen1](./images/screen1.png)
+  
+  ![screen2](./images/screen2.png)
+
+  ## video
+  [Link to video](https://youtu.be/NNYcF7dF1zM)
+
+  ## links
+  [Git hub repository](https://github.com/batemanz/README-generator.git)  
+

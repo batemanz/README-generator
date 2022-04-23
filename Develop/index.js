@@ -27,7 +27,7 @@ const questions = [
     type: "list",
     message: "License?",
     name: "license",
-    choices: ["MIT", "Mozilla", "IBM", "Apache", "ISC"],
+    choices: ["MIT", "Mozilla", "IBM", "Apache", "ISC", "None"],
   },
   {
     type: "input",
@@ -46,7 +46,7 @@ const questions = [
   },
   {
     type: "confirm",
-    message: "include toc?",
+    message: "include table of Contents?",
     name: "includetoc",
   },
 ];
