@@ -1,3 +1,4 @@
+// if else function to match a badge and URL with the users selction for license
 function renderLicenseBadge(license) {
   if (license === "MIT") {
     return `![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) https://opensource.org/licenses/MIT`;
@@ -14,6 +15,7 @@ function renderLicenseBadge(license) {
   }
 }
 
+// if none is selected for license then license is not displayed in the table of contents
 function renderLicenseLink(license) {
   if (license === "None") {
     return "";
@@ -23,7 +25,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
+// function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
    if (license === "None") {
@@ -34,7 +36,7 @@ function renderLicenseSection(license) {
    }
 }
 
-
+// template for README.md  to be filled out by user
 function generateMarkdown(data) {
   return `# ${data.Title}
 
